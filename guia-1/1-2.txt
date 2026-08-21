@@ -1,0 +1,29 @@
+1 - unacuenta.depositar(1250);
+    unacuenta.extraer(450);
+    saldoaux = unacuenta.getSaldo();
+    unacuenta.setTitular("Juan Perez");
+    aux = unacuenta.getTitular();
+
+2 - i1.etiquetarPersona(p1);
+    i1.etiquetarPersona(p2);
+    i3.agregarComentario("que hermosa foto");
+    if (p1.getEdad() < p2.getEdad()) {
+        if (p1.getEdad() < p3.getEdad()) {
+            min = p1.getEdad();
+        }
+        else {
+            min = p3.getEdad();
+        }
+    }
+    else {
+        if (p2.getEdad() < p3.getEdad()) {
+            min = p2.getEdad();
+        }
+        else {
+            min = p3.getEdad();
+        }
+    }
+    esPropietario = p3 == i2.getPropietario();
+    cadena = i3.getComentarios();
+    paisauxiliar = i2.getLugar().getPais();
+    i1.setLugar(l2);
