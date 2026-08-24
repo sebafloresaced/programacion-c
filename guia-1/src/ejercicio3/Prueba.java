@@ -36,11 +36,11 @@ public class Prueba {
         Carolina.setHsTrabajadas(115);
         Carolina.setCat(Experto);
         
-        System.out.println("Empleado: " + Juan.getNombre() + "  Saldo: " + Juan.sueldo());        
-        System.out.println("\nEmpleado: " + Roberto.getNombre() + "  Saldo: " + Roberto.sueldo());        
-        System.out.println("\nEmpleado: " + Sandra.getNombre() + "  Saldo: " + Sandra.sueldo());        
-        System.out.println("\nEmpleado: " + German.getNombre() + "  Saldo: " + German.sueldo());        
-        System.out.println("\nEmpleado: " + Vicente.getNombre() + "  Saldo: " + Vicente.sueldo());        
-        System.out.println("\nEmpleado: " + Carolina.getNombre() + "  Saldo: " + Carolina.sueldo());
+        System.out.println("Empleado: " + Juan.getNombre() + "  Saldo: " + String.format("%.2f",Juan.sueldo()));        
+        System.out.println("\nEmpleado: " + Roberto.getNombre() + "  Saldo: " + String.format("%.2f",Roberto.sueldo()));        
+        System.out.println("\nEmpleado: " + Sandra.getNombre() + "  Saldo: " + String.format("%.2f",Sandra.sueldo()));        
+        System.out.println("\nEmpleado: " + German.getNombre() + "  Saldo: " + String.format("%.2f",German.sueldo()));        
+        System.out.println("\nEmpleado: " + Vicente.getNombre() + "  Saldo: " + String.format("%.2f",Vicente.sueldo()));        
+        System.out.println("\nEmpleado: " + Carolina.getNombre() + "  Saldo: " + String.format("%.2f",Carolina.sueldo()));
     }
 }
