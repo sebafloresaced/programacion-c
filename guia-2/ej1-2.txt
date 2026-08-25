@@ -1,0 +1,15 @@
+1 - El programa imprimira:
+        - x = 1
+        - y = 0
+        - x = 0
+
+2 - Instrucciones numeradas:
+        1 - crea una variable local p1 que tiene una referencia a una instancia de la clase Punto con coordenadas (2,3)
+        2 - crea una variable local p2
+        3 - crea una variable local p3 pero da error porque no hay constructor sin parametros
+        4 - imprime "P1=Punto[x=2,y=3]"
+        5 - ahora la variable p3 copia la referencia que guarda p2, da error porque p2 no esta inicializada
+        6 - ahora la variable p2 copia la referencia que guarda p1, el punto (2,3)
+        7 - cambia las coordenadas del punto (2,3) a (8,5)
+        8 - imprime "P2=Punto[x=8,y=5]"
+
