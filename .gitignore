@@ -1,0 +1,6 @@
+# Archivos internos de JDeveloper
+.data/
+
+# Archivos generados al compilar
+**/classes/
+*.class

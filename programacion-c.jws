@@ -25,5 +25,6 @@
    </list>
    <list n="listOfChildren">
       <hash><url n="URL" path="guia-1/guia-1.jpr"/></hash>
+      <hash><url n="URL" path="guia-2/guia-2.jpr"/></hash>
    </list>
 </jws:workspace>

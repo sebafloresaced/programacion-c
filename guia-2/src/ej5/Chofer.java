@@ -1,9 +1,20 @@
 package ej5;
 
 public class Chofer {
+    /**
+     * @aggregation shared
+     */
     private Categoria categoria;
+
+    /**
+     * @aggregation composite
+     */
     private Domicilio domicilio;
     private String nombre;
+
+    /**
+     * @aggregation shared
+     */
     private Colectivo colectivo;
     public Chofer(String nombre, String calle, int numero, Categoria categoria) { // constructor sin colectivo
         this.nombre = nombre;
