@@ -1,0 +1,23 @@
+Clase1 <- Clase2 <- Clase3
+
+- 11
+- "Clase2.metodo2" "Clase3.metodo2"
+- "Clase1.metodo3" "Clase2.metodo3"
+- "Clase2.metodo4"
+
+- 11
+- "Clase2.metodo2" "Clase3.metodo2"
+- "Clase1.metodo3" "Clase2.metodo3"
+- "Clase2.metodo4"
+
+- 11
+- "Clase2.metodo2" "Clase3.metodo2"
+- "Clase1.metodo3" "Clase2.metodo3"
+- "Clase2.metodo4"
+
+- 1
+- 2
+- 3
+- 3
+- 3
+- 3

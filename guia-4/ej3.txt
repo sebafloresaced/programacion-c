@@ -1,0 +1,31 @@
+Vehiculo <- Coche
+Vehiculo <- Bicicleta
+
+Errores:
+Bicicleta b = (Bicicleta) v; error de ejecucion, v hace referencia a un objeto de tipo Coche
+Bicicleta b3 = b2; error de compilacion, se necesita hacer el casteo ya que b2 es una variable de tipo Vehiculo
+
+Salidas:
+"Coche"
+"Coche"
+Error, b no pudo crearse correctamente
+Error, Objeto no tiene el metodo detalle
+"Coche"
+"Bicicleta"
+Error, b3 no pudo declararse
+
+10
+20
+Error, b no pudo crearse correctamente
+Error, Objeto no tiene atributo a
+10
+10
+Error, b3 no pudo declararse
+
+10
+10
+Error, b no pudo crearse correctamente
+Error, Objeto no tiene el metodo getA
+10
+30
+Error, b3 no pudo declararse

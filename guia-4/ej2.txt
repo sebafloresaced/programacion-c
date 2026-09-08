@@ -1,0 +1,13 @@
+A <- B <- C
+
+a) 
+- "m3 de C"
+- "m2 de A"
+- "m1 de B"
+- "El valor de los atributos es:
+    varC1 = 500
+    var1 = 700
+    var2 = 200
+    varB1 = 100
+
+b) El llamado datoX.m3() da error, porque la variable de tipo A no conoce el metodo m3. Lo mismo pasa con los atributos varB1.
