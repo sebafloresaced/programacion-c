@@ -78,12 +78,32 @@
    </hash>
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
+         <list n="constituent-sets">
+            <hash>
+               <url n="content-folder-url" path="../guia-4/src/ej4/"/>
+               <list n="pattern-filters">
+                  <string v="+ej4/VehiculoPasajeros.java"/>
+                  <string v="+ej4/VehiculoCarga.java"/>
+                  <string v="+ej4/Vehiculo.java"/>
+                  <string v="+ej4/Combi.java"/>
+                  <string v="+ej4/Camioneta.java"/>
+                  <string v="+ej4/Camion.java"/>
+                  <string v="+ej4/Auto.java"/>
+               </list>
+               <list n="url-path">
+                  <url path="../guia-4/src/"/>
+               </list>
+            </hash>
+            <hash>
+               <list n="pattern-filters">
+                  <string v="+**"/>
+               </list>
+               <list n="url-path">
+                  <url path="src/"/>
+               </list>
+            </hash>
          </list>
-         <list n="url-path">
-            <url path="src/"/>
-         </list>
+         <list n="url-path"/>
       </hash>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
