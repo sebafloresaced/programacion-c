@@ -1,0 +1,1 @@
+El problema es que la clonación queda acoplada a la implementación actual de Motor. Con la implementacion actual funciona, el problema aparece si motor cambia, quedas ligado a modificar automovil.clone() tambien. Lo logico seria que el motor sea quien se clone a si mismo.

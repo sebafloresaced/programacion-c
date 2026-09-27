@@ -28,5 +28,7 @@
       <hash><url n="URL" path="guia-2/guia-2.jpr"/></hash>
       <hash><url n="URL" path="guia-3/guia-3.jpr"/></hash>
       <hash><url n="URL" path="guia-4/guia-4.jpr"/></hash>
+      <hash><url n="URL" path="guia-5/guia-5.jpr"/></hash>
+      <hash><url n="URL" path="guia-6/guia-6.jpr"/></hash>
    </list>
 </jws:workspace>
