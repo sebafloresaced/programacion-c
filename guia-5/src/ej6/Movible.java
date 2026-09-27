@@ -1,0 +1,9 @@
+package ej6;
+
+public interface Movible {
+    double getPosx();
+    double getPosy();
+    void setXY(double x, double y);
+    void incrementaPos(double x, double y);
+    double distancia(Movible otro);
+}
