@@ -42,7 +42,7 @@ public class Partido {
         return true;
     }
     public int golesDelEquipo(Equipo equipo) {
-        int cantidad = 0
+        int cantidad = 0;
         for (Gol gol : goles) {
             if (gol.getEquipo() == equipo) {
                 cantidad++;
