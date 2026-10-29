@@ -25,6 +25,7 @@
    </list>
    <list n="listOfChildren">
       <hash><url n="URL" path="guia-1/guia-1.jpr"/></hash>
+      <hash><url n="URL" path="guia-10/guia-10.jpr"/></hash>
       <hash><url n="URL" path="guia-2/guia-2.jpr"/></hash>
       <hash><url n="URL" path="guia-3/guia-3.jpr"/></hash>
       <hash><url n="URL" path="guia-4/guia-4.jpr"/></hash>
